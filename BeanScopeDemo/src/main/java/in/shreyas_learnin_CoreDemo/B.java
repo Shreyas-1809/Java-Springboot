@@ -1,0 +1,15 @@
+package in.shreyas_learnin_CoreDemo;
+
+import org.springframework.context.annotation.Scope;
+import org.springframework.stereotype.Component;
+
+@Scope("prototype")
+@Component
+public class B {
+
+    public B()
+    {
+        System.out.println(" Object of B is created");
+    }
+
+}
